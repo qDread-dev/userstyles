@@ -331,7 +331,7 @@
       .is2d .rook {
         #piece(@f, @s) {
           @svg: escape(
-            '<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45"><g fill-rule="evenodd" fill="@{f}" stroke="@{s}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 39h27v-3H9zm3.5-7 1.5-2.5h17l1.5 2.5zm-.5 4v-4h21v4z" stroke-linecap="butt"/><path d="M14 29.5v-13h17v13z" stroke-linecap="butt" stroke-linejoin="miter"/><path d="M14 16.5 11 14h23l-3 2.5zM11 14V9h4v2h5V9h5v2h5V9h4v5z" stroke-linecap="butt"/><path d="M12 35.5h21m-20-4h19m-18-2h17m-17-13h17M11 14h23" fill="none" stroke="@{s}" stroke-width="1" stroke-linejoin="miter"/></g></svg>'
+            '<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45"><g fill-rule="evenodd" fill="@{f}" stroke="@{base}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 39h27v-3H9zm3.5-7 1.5-2.5h17l1.5 2.5zm-.5 4v-4h21v4z" stroke-linecap="butt"/><path d="M14 29.5v-13h17v13z" stroke-linecap="butt" stroke-linejoin="miter"/><path d="M14 16.5 11 14h23l-3 2.5zM11 14V9h4v2h5V9h5v2h5V9h4v5z" stroke-linecap="butt"/><path d="M12 35.5h21m-20-4h19m-18-2h17m-17-13h17M11 14h23" fill="none" stroke="@{s}" stroke-width="1" stroke-linejoin="miter"/></g></svg>'
           );
           background-image: url("data:image/svg+xml,@{svg}") !important;
         }
